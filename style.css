@@ -12,9 +12,71 @@ body{
 }
 
 .container {
-    background-color: white;
-    padding: 3rem;
+    color: white;
+    background-color: black;
+    padding: 2.5rem;
     border-radius: 1.5rem;
-    width: 40vh;
-    min-height: 45vh;
+    width: 45vh;
+    min-height: 40vh;
+} 
+
+form{
+    margin: 2rem 0 1.5rem 0;
+}
+
+form select,button,input{
+    color: white;
+    background-color: black;
+    width: 100%;
+    outline: none;
+    border-radius: 0.5rem;
+    border: none;
+
+}
+
+form input {
+    border: 1px solid grey;
+    height: 2.7rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.select-container img {
+    max-width: 3.7rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+   margin-top: 1rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+}
+
+.select-container select{
+    font-size: 1rem;
+}
+
+.message {
+    margin: 2rem 0 2rem 0;
+}
+
+form button {
+    background-color: blueviolet;
+    height: 2.5rem;
+    font-size: 1rem;
+    cursor: pointer;
 }
