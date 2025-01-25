@@ -1,7 +1,13 @@
-const BASE_URL = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur/jpy.json"
+const BASE_URL = "https://v6.exchangerate-api.com/v6/f135ec8c6824c6640615ae00/latest/USD";
 const dropdowns = document.querySelectorAll(".dropdown select");
-const btn = document.querySelector("form button");
-const fromCurr = document.querySelector(".from select");
-const toCurr = document.querySelector(".to select");
-const msg = document.querySelector(".message");
 
+
+for (let select of dropdowns) {
+    for (currCode in countryList) {
+        let newOption = document.createElement("options");
+        newOption.innerText = currCode;
+        newOption.value = currCode;
+        select.append(newOption);
+    }
+}
+    
