@@ -11,5 +11,4 @@ Built using basic web technologies: HTML, CSS, and JavaScript
 🔗 Check it out here: [ https://23-shivamsingh.github.io/Currency_Converter/ ]
 
 Feel free to try it out and let me know what you think. Feedback is always welcome! 💬
-
 #WebDevelopment #JavaScript #CurrencyConverter #TechProjects #Coding #HTML #CSS #WebDesign
